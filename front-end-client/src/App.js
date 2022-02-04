@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/statistics" element={<Statistics />} />
           <Route path="/games" element={<Games />} />
-          <Route path="/minesweeper" elements={<Minesweeper />} />
+          <Route path="/minesweeper" element={<Minesweeper />} />
           <Route path="/*" element={<Landing />} />
         </Routes>
       </Router>

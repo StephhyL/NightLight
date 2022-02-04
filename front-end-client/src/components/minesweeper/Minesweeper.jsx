@@ -2,7 +2,7 @@
 import "../../stylesheets/css/Minesweeper.css";
 
 const Minesweeper = () => {
-  return <div>Hello from Minesweeper</div>;
+  return <div>HELLO</div>;
 };
 
 export default Minesweeper;
