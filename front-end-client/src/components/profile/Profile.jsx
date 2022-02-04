@@ -2,7 +2,7 @@
 import "../../stylesheets/css/Profile.css";
 
 const Profile = () => {
-  return <div></div>;
+  return <div>Hello from Profile</div>;
 };
 
 export default Profile;
