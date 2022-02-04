@@ -1,3 +1,6 @@
+// import styling
+import "../../stylesheets/css/register.css";
+
 const Register = () => {
   return <div></div>;
 };
