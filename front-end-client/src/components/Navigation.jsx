@@ -1,5 +1,5 @@
 // import styling
-import "../stylesheets/css/navigation.css";
+import "../stylesheets/css/Navigation.css";
 
 const Navigation = () => {
   return <div></div>;

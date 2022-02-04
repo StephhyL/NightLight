@@ -1,5 +1,5 @@
 // import styling
-import "../../stylesheets/css/register.css";
+import "../../stylesheets/css/Register.css";
 
 const Register = () => {
   return <div></div>;
