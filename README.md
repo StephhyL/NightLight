@@ -1,1 +1,9 @@
-This repo is a base template where the client side is from 'npx create-react-app' (React) and the server side is from 'npx express-generator --no-view server' (Express).
+GameApp is currently being developed.
+
+GameApp is a web application that allow users to play nostalgic games such as minesweeper, flappybird, and space invasions.
+
+Check out the temporary basic wireframe:https://www.figma.com/file/BBlyhbGuXRBGctBwPQCGWv/GameApp?node-id=0%3A1
+
+GameApp is being built with React front-end, Express back-end, and PostgreSQL for its database.
+
+GameApp was the second choice for my group's Lighthouse Lab bootcamp's final project. We ended up choosing to create Hodo (a collaborative whiteboard application) for our final project - go check it out (it's pinned on my profile). But GameApp is something that I wanted to pursue post-bootcamp because I think it would be something fun to make that has a bit of nostalgia to it.
