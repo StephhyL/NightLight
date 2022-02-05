@@ -1,5 +1,5 @@
 // import styling
-import "../../stylesheets/css/Minesweeper.css";
+import "../../stylesheets/css/minesweeper.css";
 
 const Minesweeper = () => {
   return <div>HELLO</div>;

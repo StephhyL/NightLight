@@ -1,5 +1,5 @@
 // import styling
-import "../stylesheets/css/Landing.css";
+import "../stylesheets/css/landing.css";
 
 const Landing = () => {
   return <div>Hello from Landing</div>;

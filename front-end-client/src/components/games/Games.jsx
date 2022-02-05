@@ -1,5 +1,5 @@
 // import styling
-import "../../stylesheets/css/Games.css";
+import "../../stylesheets/css/games.css";
 
 const Games = () => {
   return <div>Hello from Games</div>;

@@ -1,5 +1,5 @@
 // import styling
-import "../../stylesheets/css/Profile.css";
+import "../../stylesheets/css/profile.css";
 
 const Profile = () => {
   return <div>Hello from Profile</div>;

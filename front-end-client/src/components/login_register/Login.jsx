@@ -1,5 +1,5 @@
 // import styling
-import "../../stylesheets/css/Login.css";
+import "../../stylesheets/css/login.css";
 
 const Login = () => {
   return <div>Hello from Login</div>;
