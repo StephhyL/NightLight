@@ -9,6 +9,8 @@ const Register = () => {
     email: "",
   });
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleFirstNameInput = (event) => {
     setValues({ ...values, firstName: event.target.value });
   };
@@ -21,11 +23,18 @@ const Register = () => {
     setValues({ ...values, email: event.target.value });
   };
 
+  const handleSubmitForm = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <div>
       Register
       <div className="form-container">
         <form className="register-form">
+          {submitted ? (
+            <div className="register-success"> Thank you for registering! </div>
+          ) : null}
           <input
             values={values.firstName}
             onChange={handleFirstNameInput}
@@ -33,6 +42,7 @@ const Register = () => {
             placeholder="First Name"
             name="firstName"
           />
+          <span id="first-name-error"> Please enter a first name </span>
           <input
             values={values.lastName}
             onChange={handleLastNameInput}
@@ -40,6 +50,7 @@ const Register = () => {
             placeholder="Last Name"
             name="last Name"
           />
+          <span id="last-name-error"> Please enter a last name </span>
           <input
             values={values.email}
             onChange={handleEmailInput}
@@ -47,6 +58,7 @@ const Register = () => {
             placeholder="Email"
             name="email"
           />
+          <span id="email-error"> Please enter a valid email address </span>
           <button className="form-field" type="submit">
             Register
           </button>
