@@ -15,4 +15,4 @@ GameApp is being built with React front-end, Express back-end, and PostgreSQL fo
 
 GameApp was the second choice for my group's Lighthouse Lab bootcamp's final project. We ended up choosing to create Hodo (a collaborative whiteboard application) for our final project - go check it out (it's pinned on my profile).
 
-But GameApp is something that we wanted to pursue post-bootcamp because a group of us LHL alumni think it would be something fun to make that has a bit of nostalgia to it. Plus, it's an opportunity to further develop our exisiting skills while learning a new library - MaterialsUI!.
+But GameApp is something that we wanted to pursue post-bootcamp because a group of us LHL alumni think it would be something fun to make that has a bit of nostalgia to it. Plus, it's an opportunity to further develop our exisiting skills while learning a new library - MaterialUI!.
