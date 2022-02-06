@@ -26,17 +26,22 @@ const Register = () => {
 
   const handleSubmitForm = (event) => {
     event.preventDefault();
+    if (values.firstName && values.lastName && values.email) {
+      setValid(true);
+    }
     setSubmitted(true);
   };
 
   return (
-    <div>
+    <div className="title">
       Register
+      <br></br>
       <div className="form-container">
         <form className="register-form" onSubmit={handleSubmitForm}>
-          {submitted ? (
+          {submitted & valid ? (
             <div className="register-success"> Thank you for registering! </div>
           ) : null}
+          <br></br>
           <input
             values={values.firstName}
             onChange={handleFirstNameInput}
@@ -47,6 +52,7 @@ const Register = () => {
           {submitted && !values.firstName ? (
             <span> Please enter a first name </span>
           ) : null}
+          <br></br>
           <input
             values={values.lastName}
             onChange={handleLastNameInput}
@@ -57,6 +63,7 @@ const Register = () => {
           {submitted && !values.lastName ? (
             <span> Please enter a last name </span>
           ) : null}
+          <br></br>
           <input
             values={values.email}
             onChange={handleEmailInput}
@@ -67,6 +74,7 @@ const Register = () => {
           {submitted && !values.email ? (
             <span> Please enter a valid email address </span>
           ) : null}
+          <br></br>
           <button className="form-field" type="submit">
             Register
           </button>
