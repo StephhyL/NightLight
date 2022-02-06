@@ -20,6 +20,30 @@ const Navigation = () => {
       >
         Profile
       </Button>
+      <Button
+        variant="text"
+        onClick={() => {
+          navigate("/login");
+        }}
+      >
+        Login
+      </Button>
+      <Button
+        variant="text"
+        onClick={() => {
+          navigate("/register");
+        }}
+      >
+        Register
+      </Button>
+      <Button
+        variant="text"
+        onClick={() => {
+          navigate("/logout");
+        }}
+      >
+        Logout
+      </Button>
     </div>
   );
 };
