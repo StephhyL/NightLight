@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "@mui/material/Button";
 
 // import styling
-import "../stylesheets/css/navigation.css";
+import "../stylesheets/css/Navigation.css";
 
 const Navigation = () => {
   const navigate = useNavigate();
