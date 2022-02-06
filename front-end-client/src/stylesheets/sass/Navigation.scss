@@ -1,1 +1,7 @@
 @import "./variables.scss";
+
+.nav-bar {
+  background-color: $nav-background;
+  display: flex;
+  justify-content: space-between;
+}
