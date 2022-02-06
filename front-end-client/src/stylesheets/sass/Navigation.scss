@@ -2,8 +2,6 @@
 
 .nav-bar {
   background-color: $nav-background;
-}
-
-.hello {
-  background-color: green;
+  display: flex;
+  justify-content: space-between;
 }

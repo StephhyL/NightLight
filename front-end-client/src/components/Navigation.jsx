@@ -12,38 +12,50 @@ const Navigation = () => {
 
   return (
     <div className="nav-bar">
-      <Button
-        variant="text"
-        onClick={() => {
-          navigate("/profile");
-        }}
-      >
-        Profile
-      </Button>
-      <Button
-        variant="text"
-        onClick={() => {
-          navigate("/login");
-        }}
-      >
-        Login
-      </Button>
-      <Button
-        variant="text"
-        onClick={() => {
-          navigate("/register");
-        }}
-      >
-        Register
-      </Button>
-      <Button
-        variant="text"
-        onClick={() => {
-          navigate("/logout");
-        }}
-      >
-        Logout
-      </Button>
+      <div className="left-nav">
+        <Button
+          variant="text"
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          Home
+        </Button>
+        <Button
+          variant="text"
+          onClick={() => {
+            navigate("/profile");
+          }}
+        >
+          Profile
+        </Button>
+      </div>
+      <div className="right-nav">
+        <Button
+          variant="text"
+          onClick={() => {
+            navigate("/login");
+          }}
+        >
+          Login
+        </Button>
+        <Button
+          variant="text"
+          onClick={() => {
+            navigate("/register");
+          }}
+        >
+          Register
+        </Button>
+        <Button
+          variant="text"
+          onClick={() => {
+            navigate("/logout");
+          }}
+        >
+          Logout
+        </Button>
+      </div>
     </div>
   );
 };
