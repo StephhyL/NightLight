@@ -6,7 +6,9 @@ const Register = () => {
   const [values, setValues] = useState({
     firstName: "",
     lastName: "",
+    password: "",
     email: "",
+    avatar: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -20,8 +22,16 @@ const Register = () => {
     setValues({ ...values, lastName: event.target.value });
   };
 
+  const handlePasswordInput = (event) => {
+    setValues({ ...values, password: event.target.value });
+  };
+
   const handleEmailInput = (event) => {
     setValues({ ...values, email: event.target.value });
+  };
+
+  const handleAvatarInput = (event) => {
+    setValues({ ...values, avatar: event.target.value });
   };
 
   const handleSubmitForm = (event) => {
@@ -65,6 +75,17 @@ const Register = () => {
           ) : null}
           <br></br>
           <input
+            values={values.password}
+            onChange={handlePasswordInput}
+            className="form-field"
+            placeholder="Password"
+            name="Password"
+          />
+          {submitted && !values.password ? (
+            <span> Please enter your password </span>
+          ) : null}
+          <br></br>
+          <input
             values={values.email}
             onChange={handleEmailInput}
             className="form-field"
@@ -73,6 +94,17 @@ const Register = () => {
           />
           {submitted && !values.email ? (
             <span> Please enter a valid email address </span>
+          ) : null}
+          <br></br>
+          <input
+            values={values.avatar}
+            onChange={handleAvatarInput}
+            className="form-field"
+            placeholder="Profile Photo"
+            name="Profile Photo"
+          />
+          {submitted && !values.avatar ? (
+            <span> Please select a profile photo </span>
           ) : null}
           <br></br>
           <button className="form-field" type="submit">

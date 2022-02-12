@@ -1,7 +1,10 @@
 @charset "UTF-8";
 * {
-  background-color: #fee9e1;
-  box-sizing: border-box; }
+  /*background-color: $base-background;*/
+  box-sizing: border-box;
+  font-family: "Roboto";
+  /* background-color: pink; */
+}
 
 body {
   background: #edd1fa;
@@ -9,4 +12,5 @@ body {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  margin: 0ß; }
+  margin: 0ß;
+}
