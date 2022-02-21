@@ -1,7 +1,8 @@
-import React from "react";
+// import styling
+import "../../../../stylesheets/css/MineHead.css";
 
 const FaceIcon = () => {
-  return <div>Hello From FaceIcon</div>;
+  return <div className="face-icon">Hello From FaceIcon</div>;
 };
 
 export default FaceIcon;
