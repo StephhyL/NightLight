@@ -1,7 +1,7 @@
-import React from "react";
+import "../../../../stylesheets/css/MineBody.css";
 
 const MineBody = () => {
-  return <div>Hello From MineBody</div>;
+  return <div className="mine-body">Hello From MineBody</div>;
 };
 
 export default MineBody;

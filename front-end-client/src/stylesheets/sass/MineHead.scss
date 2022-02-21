@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.mine-head {
+  height: 10%;
+  width: 50%;
+  border: 3px solid pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.face-icon {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px lightblue solid;
+}
+
+.points-time {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px lightgreen solid;
+}
