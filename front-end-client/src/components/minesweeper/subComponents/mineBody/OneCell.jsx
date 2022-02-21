@@ -2,7 +2,7 @@
 import "../../../../stylesheets/css/MineBody.css";
 
 const OneCell = () => {
-  return <div>Hello From OneCell</div>;
+  return <div className="one-cell">Hello From OneCell</div>;
 };
 
 export default OneCell;

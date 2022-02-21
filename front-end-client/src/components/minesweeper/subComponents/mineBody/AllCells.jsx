@@ -6,7 +6,7 @@ import "../../../../stylesheets/css/MineBody.css";
 
 const AllCells = () => {
   return (
-    <div>
+    <div className="all-cells">
       <OneCell />
     </div>
   );
