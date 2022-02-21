@@ -1,4 +1,4 @@
-import React from "react";
+import "../../../../stylesheets/css/MineBody.css";
 
 const AllCells = () => {
   return <div>Hello From AllCells</div>;
