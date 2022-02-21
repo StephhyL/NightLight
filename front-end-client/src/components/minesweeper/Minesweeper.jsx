@@ -7,7 +7,7 @@ import "../../stylesheets/css/Minesweeper.css";
 
 const Minesweeper = () => {
   return (
-    <div>
+    <div className="minesweeper">
       <MineHead />
       <MineBody />
     </div>
